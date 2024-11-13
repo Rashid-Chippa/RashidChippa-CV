@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: cornflowerblue;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*  Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(90,0,33);
+    height: 65px;
+}
+.left{
+    font-size: 1.7rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+nav ul a li{
+    color:white;
+    text-decoration: none;
+}
+nav ul a li:hover{
+    color:lime
+}
+/* section  */
+/* first section */
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+.firstsection>div{
+    width: 29%;
+    height:200px;
+}
+.leftsection{
+    font-size: 2rem;
+    margin: 30px 0;
+    width: 65%;
+}
+.purple{
+    color: blueviolet;
+}
+/*       second section          */
+
+.secondsection {
+    max-width: 80vw;
+    margin:auto;
+    height:80vh;
+
+}
+hr {
+    background-color: rgb(0,167,56 );
+    margin: 25px 95px;
+}
+.text-gray{
+    color: grey;
+}
+.box{
+    background: white;
+    width:95%;
+    height:3px;
+    margin:15px;
+    display: flex;
+    margin: 0 28px;
+}
+.vertical-titel{
+    margin: 15px;
+    
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: rgb(90,0,33);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer-section h2 {
+    border-bottom: 2px solid #cd1919;
+    padding-bottom: 10px;
+}
+.footer-section p,
+.footer-section ul{
+    margin: 10px 0;
+    padding: 0;
+}
+.footer-section ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li{
+    margin:5px 0;
+}
+.footer-section ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section ul li a:hover{
+    text-decoration: underline;
+    color: darkviolet;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-icon{
+    display: inline-block;
+   margin: 0 10px;
+}
+.social-icon-img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.footer-bottom{
+    background-color: #8f1b1b;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+.footer-bottom p{
+    margin: 0;
+}
